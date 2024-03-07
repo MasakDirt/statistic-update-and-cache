@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: statistic-update
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: tech
+      username: admin
+      password: 1111
+      uri: mongodb://admin:1111@localhost:27017/tech?authSource=admin
+
+jwt:
+  inspiration:
+    ms: 24235436574879
